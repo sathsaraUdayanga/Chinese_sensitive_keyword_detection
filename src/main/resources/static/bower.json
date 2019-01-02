@@ -1,0 +1,21 @@
+{
+  "name": "chinessensitivekeywordsdetection",
+  "authors": [
+    "Sathsara Udayanga <sathsara.am@gmaiol.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "milligram": "^1.3.0",
+    "riot": "^3.13.2"
+  }
+}

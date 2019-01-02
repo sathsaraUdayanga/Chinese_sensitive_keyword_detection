@@ -1,0 +1,9 @@
+body.container{
+    padding: 3rem;
+    background-color: #EFEFEF;
+    max-width: 1000px;
+}
+
+.tcol{
+    color: red;
+}

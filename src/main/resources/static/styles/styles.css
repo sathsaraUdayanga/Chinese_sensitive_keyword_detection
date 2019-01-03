@@ -7,3 +7,29 @@ body.container{
 .tcol{
     color: red;
 }
+
+#cnt:focus{
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: #9b4dca;
+}
+
+#cnt{
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: #606c76;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.highlight{
+    background-color: #3fff12;
+    font-size: large;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+}

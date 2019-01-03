@@ -1,12 +1,8 @@
 package com.example.demo.controller;
 
-import com.example.demo.models.Texts;
+import com.example.demo.models.ResultsContent;
 import com.example.demo.services.DetectSensitiveKeywords;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import java.util.Timer;
-
-import java.util.List;
 
 @RestController
 //@Controller
@@ -24,7 +20,7 @@ public class AppController {
 
     @CrossOrigin(origins = "http://127.0.0.1:5500")
     @RequestMapping("/keywords")
-    public List<Texts> sendDetected() throws Exception{
+    public ResultsContent sendDetected() throws Exception{
         if (content==null){
             System.out.println("******content is null********");
         }else {

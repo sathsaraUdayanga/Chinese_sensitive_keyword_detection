@@ -10,21 +10,19 @@
     <link rel="stylesheet" href="bower_components/milligram/dist/milligram.min.css">
 
     <script src="bower_components/riot/riot+compiler.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <title>Chinese Sensitive Keywords Detection</title>
 </head>
-<body class="container">
-    <header>
-        <h1>Chinese Sensitive Keywords Detection</h1>
-    </header>
+<body class="">
     <content></content>
     <results></results>
-
 
     <script src="mixins/api.js"></script>
     <script src="tags/content.tag" type="riot/tag"></script>
     <script src="tags/results.tag" type="riot/tag"></script>
     <script src="tags/highlightedView.tag" type="riot/tag"></script>
+    <script src="tags/popup.tag" type="riot/tag"></script>
     <script>
         riot.mount('*');
     </script>

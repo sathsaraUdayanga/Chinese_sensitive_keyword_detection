@@ -4,6 +4,16 @@ body.container{
     max-width: 1000px;
 }
 
+body{
+    background-color: #EFEFEF;
+    padding: 50px;
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
 .tcol{
     color: red;
 }
@@ -33,3 +43,21 @@ body.container{
     50%{opacity: .5;}
     100%{opacity: 1;}
 }
+
+.select{
+    background-color: red;
+}
+
+#confirm {
+    display: none;
+    background-color:white;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    left: 70%;
+    padding: 10px;
+    box-shadow: 5px 5px 18px 0px rgba(0,0,0,1);
+    align-content: center;
+
+}
+
